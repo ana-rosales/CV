@@ -4,5 +4,8 @@
 #### Funcionalidad estrella: Resumen de habilidades.
 
 
-https://github.com/user-attachments/assets/03d41ba9-19f7-4dfb-b569-62a9903012e5
+
+https://github.com/user-attachments/assets/e363c4c6-43c7-4575-ac06-5604b146de9a
+
+
 
