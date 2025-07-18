@@ -1,4 +1,4 @@
 # CV Ana Paula Rosales
-### Simple, pero divertido y conciso 😊.
+#### Simple, pero divertido y conciso 😊.
 
-### Funcionalidad estrella: Resumen de habilidades.
+#### Funcionalidad estrella: Resumen de habilidades.
