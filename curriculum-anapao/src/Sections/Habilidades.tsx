@@ -57,7 +57,7 @@ export default function Habilidades(){
                 <h3  className="uk-text-bold">Resumen de Habilidades</h3>
                 <Filter filters={filters}>
                     {habilidades.map((habilidad,index)=> //recorrer habilidades
-                        <li key={index} className={habilidad.tags.map((tag)=>" tag-".concat(filters[tag].tag)).join(" ")}>
+                        <li key={index} className={habilidad.tags.map((tag)=>" tag-all tag-".concat(filters[tag].tag)).join(" ")}>
                             <Card titulo={habilidad.titulo} tags_prp={habilidad.tags.map((tag)=>filters[tag].nom)} nivel={habilidad.nivel} />
                         </li>
                     )}

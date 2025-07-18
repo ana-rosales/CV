@@ -28,7 +28,7 @@ export default function Escuela(){
     return(
         <Contenedor id={"cursos"}>
             <div className="uk-padding">
-                <h3 className="uk-text-bold">Formación académica</h3>
+                <h3 className="uk-text-bold">Cursos y Certificaciones</h3>
                 <ul data-uk-accordion >
                     {certificaciones.map((certificacion,index)=>
                         <li className={(index == 0)?"uk-open":""}>

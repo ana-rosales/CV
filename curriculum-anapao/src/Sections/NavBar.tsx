@@ -3,7 +3,7 @@ export default function NavBar() {
 
     return (
         <nav className="uk-navbar-container" data-uk-sticky>
-            <div className="uk-container">
+            <div className="uk-container uk-container-expand">
                 <div data-uk-navbar>
                     <div className="uk-navbar-left">
                         <ul className="uk-navbar-nav">
@@ -15,8 +15,8 @@ export default function NavBar() {
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="#cursos" data-uk-icon="icon: bolt">Cursos y Certificaciones</a></li>
-                            <li><a href="#habilidades" data-uk-icon="icon: heart">Habilidades</a></li>
+                            <li><a href="#habilidades" data-uk-icon="icon: heart" data-uk-scroll>Habilidades</a></li>
+                            <li><a href="#cursos" data-uk-icon="icon: bolt" data-uk-scroll>Cursos y Certificaciones</a></li>
                         </ul>
                     </div>
                     <div className="uk-navbar-right">

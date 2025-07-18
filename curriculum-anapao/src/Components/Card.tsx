@@ -11,7 +11,7 @@ export default function Card({ titulo,tags_prp,nivel }: {titulo: string, tags_pr
                 </div>
                 <div className="uk-flex uk-flex-middle uk-margin">
                     <p className="uk-margin-remove">{nivel}%</p>
-                    <progress id="js-progressbar" className="uk-progress uk-margin-remove" value={ nivel } max="100"></progress>
+                    <progress id="js-progressbar" className="uk-progress  uk-margin-left" value={ nivel } max="100"></progress>
                 </div>
             </div>
         </div>
